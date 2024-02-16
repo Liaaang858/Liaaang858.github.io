@@ -1,0 +1,15 @@
+{
+  "name": "liang-portfolio",
+  "main": "index.js",
+  "script": {
+    "deploy": "gh-pages -d public",
+    "sass": "node-sass -w scss/ -o public/css --recursive"
+  },
+  "homepage": "https://liaaang858.github.io",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
